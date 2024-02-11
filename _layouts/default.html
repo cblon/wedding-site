@@ -6,15 +6,13 @@ navigation:
 - text: RSVP
   url: /rsvp.html
   name: /rsvp
-- text: Schedule of Events
+- text: Schedule
   url: /schedule.html
   name: /schedule
-- text: Useful Information
+- text: Location
   url: /info.html
   name: /info
-- text: Our Local Favorites
-  url: /favorites.html
-  name: /favorites
+
 - text: Registry
   url: /registry.html
   name: /registry
@@ -30,13 +28,26 @@ navigation:
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
   </head>
-  <body>
+  <body style="
+  background-image: url(./assets/images/bg.png);
+  background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+  
+ 
+  ">
     <div id="head">
     </div>
     <div id="border">
       <div class="container" id="main">
         <div id="logo">
-          <a href="{{ '/' | relative_url }}"><img src="img/emmy_and_chris.png"/></a>
+          <a href="{{ '/' | relative_url }}"><img src="./assets/images/logo.svg"/></a>
         </div>
       <div id="nav_wrapper">
         <ul id="nav">
